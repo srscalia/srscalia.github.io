@@ -1,0 +1,274 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#headerResponsive{
+  z-index: 1030;
+  font-size: .75em;
+  height: 10vh;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.IntroductionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 3.5vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-weight: bold;
+  position: relative;
+  /* background-color: #5b9bd5; */
+}
+
+.AboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.AboutContainerResponsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+}
+
+.PortfolioContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+.ContactContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#header {
+  z-index: 1030;
+  font-size: 1em;
+  height: 10vh;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-left: 5%;
+  margin-right:5%;
+}
+
+#contact {
+  width: 33.33%;
+}
+
+#shelby {
+  font-weight: 900;
+  font-size: 1.25em;
+  text-align: center;
+  width: 33.33%;
+}
+
+#navRight {
+  width: 33.33%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#portfolio {
+  margin-left: 4%
+}
+
+#downArrow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 3.5vw;
+  position: absolute;
+  bottom: 8%
+}
+
+
+#aboutDownArrow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 3.5vw;
+  position: absolute;
+  bottom: 8%
+}
+
+
+#upArrow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 3.5vw;
+  position: absolute;
+  bottom: 8%
+}
+
+#aboutText {
+  width: 50%;
+  height: 500px;
+  font-size: 1em;
+}
+
+
+#aboutTextResponsive {
+  width: 70%;
+  height: 500px;
+  font-size: .7em;
+}
+
+#iconContainer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3.5vw;
+  align-items: center;
+}
+
+.icon-cog {
+  color: black;
+}
+
+.arrow:hover {
+  -webkit-animation: fadeIn 4s;
+  animation: fadeIn 4s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+.headerHover {
+  cursor: pointer;
+}
+
+.headerHover:hover {
+  font-weight: bold;
+}
+
+#portfolioColumnContainer {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(3, minmax(30%, 1fr));
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+}
+
+#portfolioColumnContainerResponsive {
+  display: grid;
+  width: 80%;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-column-gap: 2%;
+  grid-row-gap: 10%;
+}
+
+.PortfolioContainerResponsive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.port {
+  font-size: 1em;
+  border: 1px solid grey;
+  border-radius: 10px;
+}
+
+.port > h3 {
+  text-align: center;
+}
+
+.contactIcon {
+  color: black;
+}
+#twitter:hover {
+  color: #4AA0EC;
+}
+#linked:hover {
+  color: #3076B0;
+}
+
+#email:hover {
+	color: #BEBEBE;
+}
+
+.blackIcon:hover {
+  color: black;
+}
+
+.portfolioLinksContainer{
+  display: flex;
+  justify-content: center;
+}
+
+.portfolioLink {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.portfolioLinks {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.portfolioLinks:hover {
+  font-weight: bold;
+}
+
+.projectText {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.projectTextResponsive {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  font-size: .8em;
+}
+
+h3 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
